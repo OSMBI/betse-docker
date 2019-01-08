@@ -12,9 +12,11 @@ Docker should now take 10/15 minutes to install relevant information, expect ins
 
 This will work in any directory and take you to a command-line, once in the usual standard configuration commands for BETSE need to be done, these include:
 
-```betse config my_sim/config.yml
+```
+betse config my_sim/config.yml
 betse seed my_sim/config.yml
-betse init my_sim/config.yml```
+betse init my_sim/config.yml
+```
 
 With these done, BETSE will run as usual in the docker
 
