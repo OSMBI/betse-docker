@@ -1,0 +1,8 @@
+version:'3'
+
+services:
+	product-services:
+		context: ./
+		build: ./build
+		volumes:
+			- ./build:./src
