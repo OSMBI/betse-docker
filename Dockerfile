@@ -14,5 +14,6 @@ RUN pip3 install -r requirements.txt
 
 # Download and build BETSE
 
-RUN git clone https://gitlab.com/betse/betse.git 
-RUN python3 betse/setup.py develop
+RUN git clone https://gitlab.com/betse/betse.git
+WORKDIR ./betse
+RUN python3 setup.py develop
